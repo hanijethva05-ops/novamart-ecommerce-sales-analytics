@@ -1,73 +1,162 @@
-<div align="center">
+ <div align="center">
 
-# 🛒 NOVAMART — E-Commerce Sales Performance, Profitability & Customer Insights Analysis
+<img src="https://img.shields.io/badge/NOVAMART-E--COMMERCE%20ANALYTICS-0D9488?style=for-the-badge&labelColor=111827" />
 
-**An End-to-End Multi-Tool Data Analytics Case Study Using WPS Spreadsheet / Excel, MySQL & Core Python**
+# 🛒 NOVAMART
 
-![Tools](https://img.shields.io/badge/Tools-WPS%20Spreadsheet%20%7C%20Excel%20%7C%20MySQL%20%7C%20Core%20Python-0D9488?style=for-the-badge)
-![Dataset](https://img.shields.io/badge/Dataset-320%20Orders%20(Jan%E2%80%93Oct%202026)-1E293B?style=for-the-badge)
-![Margin](https://img.shields.io/badge/Net%20Profit%20Margin-32.68%25-16A34A?style=for-the-badge)
-![Author](https://img.shields.io/badge/Analyst-Hani%20Jethva-7C3AED?style=for-the-badge)
+### E-Commerce Sales Performance, Profitability & Customer Insights Analysis
 
-[📄 View Full Case Study Report](./report/Novamart_Final_Business_Analysis.pdf) • [📊 Interactive Workbook](./excel_wps/) • [🗄️ SQL Queries](./sql/) • [🐍 Python Scripts](./python/)
+**Turning Transactional Data into Meaningful Business Insights**
+
+<br/>
+
+<img src="https://img.shields.io/badge/WPS%20Spreadsheet-0D9488?style=flat-square" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square" />
+<img src="https://img.shields.io/badge/Core%20Python-3776AB?style=flat-square" />
+<img src="https://img.shields.io/badge/320-Orders-7C3AED?style=flat-square" />
+
+<br/><br/>
+
+[📊 Dashboard](./excel_wps/) · [📄 Business Report](./report/) · [🗄️ SQL Analysis](./sql/) · [🐍 Python](./python/)
 
 </div>
 
 ---
 
-## 📌 Project Overview
+## ✦ PROJECT AT A GLANCE
 
-**NOVAMART** is an online retail business operating across **10 major Indian cities** (`Mumbai`, `Delhi`, `Bengaluru`, `Ahmedabad`, `Jaipur`, `Pune`, `Surat`, `Rajkot`, `Vadodara`, and `Indore`). In competitive e-commerce operations, raw order logs alone hide category margin trade-offs, regional demand concentration, and revenue leakage caused by returns and cancellations.
+An end-to-end business analytics case study exploring the sales performance, profitability, customer activity, and order fulfillment of NOVAMART.
 
-This project evaluates **320 transactional records** spanning **January – October 2026** across a **single unified dataset** using three core analytics tools—**WPS Spreadsheet / Microsoft Excel**, **MySQL**, and **Core Python**—to transform raw retail transactions into financial KPIs, relational insights, automated validation tools, and an executive-ready interactive dashboard.
+The analysis covers **320 transactional orders from January to October 2026**, using WPS Spreadsheet / Excel, MySQL, and Core Python.
 
----
-
-## 📊 Executive KPI Snapshot
-
-| Key Performance Indicator | Metric Value | Business Interpretation |
-| :--- | :---: | :--- |
-| **Total Sales (Net Revenue)** | **₹ 10,71,688.25** | Total net revenue earned after promotional discounts |
-| **Total Product Cost (COGS)** | **₹ 7,21,460.00** | Cumulative product cost across all 320 orders |
-| **Total Net Profit** | **₹ 3,50,228.25** | Net bottom-line profit (`Sales - Cost`) |
-| **Overall Profit Margin** | **32.68%** | Blended profitability across all product lines |
-| **Total Orders** | **320** | Unique order transactions (`OrderID`: `00001` – `00320`) |
-| **Unique Customers** | **112** | Distinct buyers (`CustomerID`) across repeat cohorts |
-| **Total Quantity Sold** | **953** | Total product units ordered across 5 categories |
-| **Average Order Value (AOV)** | **₹ 3,349.03** | Mean net revenue generated per order |
-| **Average Customer Rating** | **4.09 / 5.0** | Mean satisfaction score across fulfilled orders (excluding cancelled) |
+The project brings together data preparation, financial calculations, SQL analysis, Python programming, and interactive dashboard reporting.
 
 ---
 
-## 🖼️ Interactive Dashboard Preview
+## 📈 EXECUTIVE PERFORMANCE
 
-> *Built in **WPS Spreadsheet** using PivotTables, PivotCharts, cell-linked KPI summary cards, and 6 synchronized Slicers (`OrderMonth`, `Category`, `OrderStatus`, `City`, `PaymentMethod`, `Gender`).*
+<div align="center">
 
-### 1. Full Executive Overview (All Categories & Cities)
-![NOVAMART Full Dashboard](./excel_wps/screenshots/dashboard_full.png)
+| 💰 TOTAL SALES | 📊 TOTAL PROFIT |
+|:---:|:---:|
+| **₹10,71,688.25** | **₹3,50,228.25** |
 
-### 2. Dynamic Slicer-Filtered View (`Category = Electronics` | `OrderStatus = Delivered`)
-![NOVAMART Filtered Dashboard](./excel_wps/screenshots/dashboard_filtered.png)
+| 🛒 TOTAL ORDERS | 👥 CUSTOMERS |
+|:---:|:---:|
+| **320** | **112** |
 
-*(Note: Upload your dashboard screenshots as `dashboard_full.png` and `dashboard_filtered.png` inside `excel_wps/screenshots/` so they render automatically right here!)*
+| 📦 QUANTITY SOLD | 🎯 PROFIT MARGIN |
+|:---:|:---:|
+| **953** | **32.68%** |
+
+| 🧾 AVERAGE ORDER VALUE | ⭐ CUSTOMER RATING |
+|:---:|:---:|
+| **₹3,349.03** | **4.09 / 5** |
+
+</div>
 
 ---
 
-## 🎯 Business & Technical Objectives
+## 🖥️ INTERACTIVE DASHBOARD
 
-1. **Financial & Profitability Assessment:** Quantify total sales, product cost, net profit, AOV, and profit margin across categories, cities, and months.
-2. **Category & SKU Margin Evaluation:** Identify top revenue generators vs. high-margin categories and flag high-revenue, lower-margin products for pricing review.
-3. **Order Fulfillment & Leakage Audit:** Measure `Delivered`, `Returned`, and `Cancelled` order distribution alongside delivery speed (`DeliveryDays`) and customer satisfaction (`Rating`).
-4. **Cross-Tool Analytical Reconciliation:** Validate every metric across **WPS Spreadsheet / Excel**, **MySQL**, and **Core Python** using one single source of truth.
-5. **Executive Decision Support:** Deliver a clean, interactive dashboard and concrete strategic recommendations to improve blended profit margins and customer retention.
+**Built using:** PivotTables · PivotCharts · KPI Cards · Interactive Slicers
+
+### 01 — Executive Dashboard
+
+<div align="center">
+<img src="./excel_wps/picture%201.png" alt="NOVAMART Full Dashboard" width="95%" />
+</div>
+
+### 02 — Filtered Dashboard View
+
+<div align="center">
+<img src="./excel_wps/picture%202.png" alt="NOVAMART Filtered Dashboard" width="95%" />
+</div>
+
+**Dashboard Highlights**
+
+- Executive KPI summary
+- Monthly sales trend
+- Category-wise sales and profit
+- City-wise sales performance
+- Product performance analysis
+- Order status distribution
+- Six interactive slicers for dynamic filtering
 
 ---
 
-## 🗂️ Repository Architecture
+## 🎯 BUSINESS OBJECTIVES
+
+| Area | Analytical Focus |
+|:---|:---|
+| Financial Performance | Sales, cost, profit, and margin evaluation |
+| Product Analysis | Category-wise and product-wise performance |
+| Customer Insights | Customer activity and rating analysis |
+| Order Management | Delivered, returned, and cancelled orders |
+| Trend Analysis | Monthly sales and profitability trends |
+| Reporting | Interactive dashboard and business recommendations |
+
+---
+
+## ⚙️ TECHNOLOGY & IMPLEMENTATION
+
+<details>
+<summary><b>01 — WPS Spreadsheet / Excel</b></summary>
+
+- Data cleaning and preparation
+- PivotTables and PivotCharts
+- Dynamic KPI summary cards
+- Interactive dashboard
+- Six synchronized slicers
+
+</details>
+
+<details>
+<summary><b>02 — MySQL</b></summary>
+
+- Database and table creation
+- Aggregate functions and grouping
+- Conditional business analysis using `CASE`
+- Customer and category analysis
+- Ranking functions
+- Window functions including `LAG()`
+
+**Sample SQL Query**
+
+```sql
+SELECT
+    Category,
+    SUM(Sales) AS Total_Sales,
+    SUM(Profit) AS Total_Profit,
+    ROUND(
+        SUM(Profit) / NULLIF(SUM(Sales), 0) * 100,
+        2
+    ) AS Profit_Margin
+FROM project.novamart_orders
+GROUP BY Category
+ORDER BY Total_Sales DESC;
+```
+
+</details>
+
+<details>
+<summary><b>03 — Core Python</b></summary>
+
+- Lists, tuples, dictionaries, and sets
+- Loops and conditional statements
+- Custom functions
+- Financial calculations
+- Customer and order summaries
+- Data validation and analytical logic
+
+</details>
+
+---
+
+## 📂 REPOSITORY STRUCTURE
 
 ```text
-
-novamart-ecommerce-sales-analytics/
+NOVAMART/
 │
 ├── excel_wps/
 │   ├── novamart_clean_data.xlsx
@@ -75,13 +164,100 @@ novamart-ecommerce-sales-analytics/
 │   └── picture 2.png
 │
 ├── sql/
+│   ├── README.md
 │   └── novamart_queries.sql
 │
 ├── python/
+│   ├── README.md
 │   └── novamart_analysis.py
 │
 ├── report/
+│   ├── README.md
 │   ├── Novamart_Final_Business_Analysis.pdf
 │   └── Novamart_Final_Business_Analysis.docx
 │
 └── README.md
+```
+
+*The single Excel workbook contains Raw_Data, Clean_Data, Analysis, and Dashboard worksheets.*
+
+---
+
+## 🔍 KEY BUSINESS TAKEAWAYS
+
+| Business Area | Key Takeaway |
+|:---|:---|
+| Revenue | Overall sales reached ₹10.71 lakh |
+| Profitability | Overall profit margin stood at 32.68% |
+| Customers | 112 unique customers generated 320 orders |
+| Products | Five product categories were analyzed |
+| Operations | Order fulfillment patterns were evaluated |
+| Reporting | Interactive slicers support flexible dashboard exploration |
+
+---
+
+## 💡 STRATEGIC RECOMMENDATIONS
+
+**01 — Improve Profitability**
+
+Monitor category-level margins and evaluate pricing strategies to protect profitability.
+
+**02 — Strengthen Product Strategy**
+
+Identify products with strong revenue and profit contributions to support better product planning.
+
+**03 — Reduce Order Leakage**
+
+Investigate returned and cancelled orders to identify potential operational improvements.
+
+**04 — Build Customer Retention**
+
+Use customer purchasing patterns to develop targeted retention and repeat-purchase initiatives.
+
+**05 — Monitor Monthly Trends**
+
+Use monthly sales performance to support promotional planning and business decisions.
+
+---
+
+## 📦 PROJECT DELIVERABLES
+
+| Deliverable | Location |
+|:---|:---|
+| Interactive Excel Workbook | `excel_wps/` |
+| Dashboard Screenshots | `excel_wps/` |
+| MySQL Queries | `sql/` |
+| Core Python Script | `python/` |
+| Detailed PDF Report | `report/` |
+| Editable Word Report | `report/` |
+
+---
+
+## 🚀 EXPLORE THE PROJECT
+
+1. Open the PDF report to review the complete business case study.
+2. Explore the Excel workbook to inspect data, analysis, and dashboard.
+3. Review the SQL file to understand the database queries.
+4. Explore the Python script to see the programming implementation.
+
+---
+
+<div align="center">
+
+## 👩‍💻 ABOUT THE ANALYST
+
+### HANI JETHVA
+
+**Aspiring Data Analyst & Software Developer**
+
+WPS Spreadsheet / Excel · MySQL · Core Python
+
+[![GitHub](https://img.shields.io/badge/GitHub-Visit%20Profile-181717?style=for-the-badge&logo=github)](https://github.com/hanijethva05-ops)
+
+<br/>
+
+**NOVAMART**
+
+*From Raw Transactions to Business Insights.*
+
+</div>
