@@ -66,24 +66,19 @@ This project evaluates **320 transactional records** spanning **January – Octo
 ## 🗂️ Repository Architecture
 
 ```text
+
 novamart-ecommerce-sales-analytics/
 │
-├── data/
-│   ├── novamart_raw_data.csv              # Untouched raw dataset (320 records, 19 columns)
-│   └── novamart_clean_data.csv            # Validated dataset + 4 engineered columns
-│
 ├── excel_wps/
-│   ├── Novamart_Dashboard.xlsx            # Multi-tab workbook (Raw_Data, Clean_Data, Analysis, Dashboard)
-│   └── screenshots/
-│       ├── dashboard_full.png             # Full executive dashboard view
-│       └── dashboard_filtered.png         # Slicer-filtered view (Electronics + Delivered)
+│   ├── novamart_clean_data.xlsx
+│   ├── picture 1.png
+│   └── picture 2.png
 │
 ├── sql/
-│   ├── novamart_queries.sql               # MySQL table schema & 24 analytical queries
-│   └── query_outputs/                     # Result grid screenshots (Category, MoM LAG, OrderStatus)
+│   └── novamart_queries.sql
 │
 ├── python/
-│   └── novamart_analysis.py               # Core Python validation, summaries & interactive CLI menu
+│   └── novamart_analysis.py
 │
 ├── report/
 │   ├── Novamart_Final_Business_Analysis.pdf
